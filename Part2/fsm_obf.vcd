@@ -1,0 +1,266 @@
+$date
+	Tue Dec 16 23:43:27 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module tb_FSM $end
+$var wire 1 ! out $end
+$var parameter 5 " P $end
+$var parameter 1 # P1 $end
+$var parameter 1 $ P2 $end
+$var parameter 1 % P3 $end
+$var parameter 1 & P4 $end
+$var parameter 1 ' P5 $end
+$var parameter 4 ( S0_O $end
+$var reg 1 ) clk $end
+$var reg 5 * seq [4:0] $end
+$var reg 1 + x $end
+$scope module dut $end
+$var wire 1 ) clk $end
+$var wire 1 + x $end
+$var parameter 4 , BLACKHOLE $end
+$var parameter 1 - P1 $end
+$var parameter 1 . P2 $end
+$var parameter 1 / P3 $end
+$var parameter 1 0 P4 $end
+$var parameter 1 1 P5 $end
+$var parameter 4 2 S0_N $end
+$var parameter 4 3 S0_O $end
+$var parameter 4 4 S1_N $end
+$var parameter 4 5 S1_O $end
+$var parameter 4 6 S2_N $end
+$var parameter 4 7 S2_O $end
+$var parameter 4 8 S3_N $end
+$var parameter 4 9 S3_O $end
+$var parameter 4 : S4_N $end
+$var parameter 4 ; S4_O $end
+$var reg 1 ! out $end
+$var reg 4 < state [3:0] $end
+$upscope $end
+$scope task apply_sequence $end
+$var reg 5 = seq [4:0] $end
+$var integer 32 > i [31:0] $end
+$upscope $end
+$scope task reset_fsm $end
+$upscope $end
+$upscope $end
+$scope module tb_FSM $end
+$scope module dut $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b1100 ;
+b100 :
+b1011 9
+b11 8
+b1010 7
+b10 6
+b1001 5
+b1 4
+b1000 3
+b0 2
+11
+00
+0/
+0.
+1-
+b1111 ,
+b1000 (
+1'
+0&
+0%
+0$
+1#
+b10001 "
+$end
+#0
+$dumpvars
+bx >
+bx =
+b1000 <
+0+
+bx *
+0)
+0!
+$end
+#5000
+b1111 <
+b100 >
+b1110 =
+b1110 *
+1)
+#10000
+0)
+#15000
+1)
+1+
+b11 >
+#20000
+0)
+#25000
+1)
+b10 >
+#30000
+0)
+#35000
+1)
+b1 >
+#40000
+0)
+#45000
+1)
+0+
+b0 >
+#50000
+0)
+#55000
+1)
+b11111111111111111111111111111111 >
+#60000
+0)
+#65000
+1)
+1+
+b100 >
+b11110 =
+b11110 *
+b1001 <
+#70000
+0)
+#75000
+b1111 <
+1)
+b11 >
+#80000
+0)
+#85000
+1)
+b10 >
+#90000
+0)
+#95000
+1)
+b1 >
+#100000
+0)
+#105000
+1)
+0+
+b0 >
+#110000
+0)
+#115000
+1)
+b11111111111111111111111111111111 >
+#120000
+0)
+#125000
+1)
+1+
+b100 >
+b10000 =
+b10000 *
+b1001 <
+#130000
+0)
+#135000
+b1010 <
+1)
+0+
+b11 >
+#140000
+0)
+#145000
+b1011 <
+1)
+b10 >
+#150000
+0)
+#155000
+b1100 <
+1)
+b1 >
+#160000
+0)
+#165000
+b1111 <
+1)
+b0 >
+#170000
+0)
+#175000
+1)
+b11111111111111111111111111111111 >
+#180000
+0)
+#185000
+1)
+1+
+b100 >
+b10001 =
+b10001 *
+b1001 <
+#190000
+0)
+#195000
+b1010 <
+1)
+0+
+b11 >
+#200000
+0)
+#205000
+b1011 <
+1)
+b10 >
+#210000
+0)
+#215000
+b1100 <
+1)
+b1 >
+#220000
+0)
+#225000
+b0 <
+1)
+1+
+b0 >
+#230000
+0)
+#235000
+b10 <
+1)
+b11111111111111111111111111111111 >
+#240000
+0)
+#245000
+b100 <
+1)
+#250000
+0)
+#255000
+b1 <
+1)
+0+
+#260000
+0)
+#265000
+b11 <
+1)
+#270000
+0)
+#275000
+b100 <
+1)
+#280000
+0)
+#285000
+b1 <
+1)
